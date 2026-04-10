@@ -1,7 +1,7 @@
 import styles from "./signup.module.css"
 import Asterisk from "../../components/asterisk/Asterisk"
 import { useState } from "react"
-import { useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router"
 
 const Signup = () => {
   const navigate = useNavigate()

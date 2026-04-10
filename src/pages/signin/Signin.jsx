@@ -1,5 +1,5 @@
 import styles from "./signin.module.css"
-import { useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router"
 
 const Signin = () => {
   const navigate = useNavigate()
